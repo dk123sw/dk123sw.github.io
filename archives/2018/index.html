@@ -56,19 +56,19 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/DK_x32.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/DK_x16.png?v=5.1.4">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+  <link rel="mask-icon" href="/images/DK_x32.jpg?v=5.1.4" color="#222">
 
 
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="DK Blog">
 
 
 
@@ -80,6 +80,7 @@
 
 
 <meta name="description" content="静态博客">
+<meta name="keywords" content="DK Blog">
 <meta property="og:type" content="website">
 <meta property="og:title" content="呀，你好">
 <meta property="og:url" content="http://yoursite.com/archives/2018/index.html">
@@ -98,7 +99,7 @@
     root: '/',
     scheme: 'Pisces',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -159,7 +160,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <h1 class="site-subtitle" itemprop="description">我的博客</h1>
       
   </div>
 
@@ -184,7 +185,27 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
-            首页
+            --&gt;首页&lt;--
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            --&gt;标签&lt;--
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            --&gt;分类&lt;--
           </a>
         </li>
       
@@ -242,7 +263,7 @@
         
           
           <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2018">2018</h1>
+            <h2 class="archive-year" id="archive-year-2018">2018</h2>
           </div>
         
         
@@ -252,18 +273,18 @@
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
     <header class="post-header">
 
-      <h2 class="post-title">
+      <h3 class="post-title">
         
             <a class="post-title-link" href="/2018/11/06/hello-world/" itemprop="url">
               
-                <span itemprop="name">Hello World</span>
+                <span itemprop="name">博客搭建</span>
               
             </a>
         
-      </h2>
+      </h3>
 
       <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2018-11-06T17:36:23+08:00" content="2018-11-06">
+        <time class="post-time" itemprop="dateCreated" datetime="2018-11-06T21:43:29+08:00" content="2018-11-06">
           11-06
         </time>
       </div>
@@ -316,7 +337,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">DK</p>
-              <p class="site-description motion-element" itemprop="description">静态博客</p>
+              <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
           <nav class="site-state motion-element">
@@ -355,6 +376,13 @@
 
       
 
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
       
 
     </div>
@@ -402,11 +430,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
     
 
     
@@ -555,5 +578,5 @@
 
   
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
